@@ -99,11 +99,10 @@
 		F3A0BF2828F466E7005E4D16 /* BeachCheck */ = {
 			isa = PBXGroup;
 			children = (
-				F3A0BF2928F466E7005E4D16 /* AppDelegate.swift */,
-				F3A0BF2B28F466E7005E4D16 /* SceneDelegate.swift */,
-				F3A0BF2D28F466E7005E4D16 /* ViewController.swift */,
-				F3A0BF3528F466E7005E4D16 /* Assets.xcassets */,
-				F3A0BF3728F466E7005E4D16 /* LaunchScreen.storyboard */,
+				F3A0BF5F28F46868005E4D16 /* Resources */,
+				F3A0BF5E28F46854005E4D16 /* ViewModel */,
+				F3A0BF5D28F4684E005E4D16 /* View */,
+				F3A0BF5C28F46846005E4D16 /* Model */,
 				F3A0BF3A28F466E7005E4D16 /* Info.plist */,
 				F3A0BF3228F466E7005E4D16 /* BeachCheck.xcdatamodeld */,
 			);
@@ -125,6 +124,39 @@
 				F3A0BF4F28F466E8005E4D16 /* BeachCheckUITestsLaunchTests.swift */,
 			);
 			path = BeachCheckUITests;
+			sourceTree = "<group>";
+		};
+		F3A0BF5C28F46846005E4D16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0BF5D28F4684E005E4D16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0BF2D28F466E7005E4D16 /* ViewController.swift */,
+				F3A0BF3728F466E7005E4D16 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0BF5E28F46854005E4D16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0BF5F28F46868005E4D16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0BF3528F466E7005E4D16 /* Assets.xcassets */,
+				F3A0BF2B28F466E7005E4D16 /* SceneDelegate.swift */,
+				F3A0BF2928F466E7005E4D16 /* AppDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
